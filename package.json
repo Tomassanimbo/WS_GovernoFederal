@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/Tomassanimbo/WS_GovernoFederal.git",
   "author": "Tomas Sanimbo <tomassanimbo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon ./src/index.js --watch"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
 }
