@@ -6,7 +6,8 @@
   "author": "Tomas Sanimbo <tomassanimbo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev":"nodemon ./src/index.js --watch",
+    "main":"nodemon ./src/index.js --watch",
+    "dev":"nodemon ./src/links.js --watch",
     "fi" : "nodemon ./src/paginafilho.js"
   },
   "dependencies": {
